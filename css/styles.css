@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+body {
+    color: #212121;
+    font-family: 'Roboto', 'Raleway', 'Montserrat', sans-serif;
+    background: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-logo {
+    color: #000000;
+    font-family: 'Raleway';
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1.2;
+    letter-spacing: 0.03em; 
+}
+
+.first-word {
+    color: #2196F3;
+}
+
+.menu {
+    font-weight: 500;
+font-size: 14px;
+text-decoration: none;
+line-height: 1.1;
+color:#212121;
+letter-spacing: 0.02em;
+}
+
+.menu:hover {
+    color: #2196F3; 
+}
+
+.menu:focus {
+    color: #2196F3; 
+}
+
+.header-mail, .header-tel {
+    color: #757575;
+    font-weight: 500;
+font-size: 14px;
+text-decoration: none;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+.header-mail:hover, .header-tel:hover {
+    color: #2196F3;
+}
+
+.header-mail:focus, .header-tel:focus {
+    color: #2196F3;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.address {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.footer-mail, .footer-tel {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.footer-mail:hover, .footer-tel:hover {
+    color: #2196F3;
+}
+
+.footer-mail:focus, .footer-tel:focus {
+    color: #2196F3;
+}
+
+footer {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+}
+
+.main-block {
+    height: 600px;
+width: 1600px;
+background-color: #2F303A;
+text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+font-size: 44px;
+color: #FFFFFF;
+line-height: 1.4;
+letter-spacing: 0.06em;
+}
+
+.features-list {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.features-title {
+    font-weight: 700;
+    line-height: 1.1;
+    color: #212121;
+}
+
+.second-headers {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.profession {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-filtres {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #757575;
+    letter-spacing: 0.03em;
+}
+
+.main-button {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.06em;
+cursor: pointer;
+}
+
+.main-button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.main-button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.first-button:hover, .second-button:hover, .third-button:hover, .fourth-button:hover, .fifth-button:hover {
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border-color: #2196F3;
+}
+
+.first-button:focus, .second-button:focus, .third-button:focus, .fourth-button:focus, .fifth-button:focus {
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border-color: #2196F3;
+}
+
+.first-button {
+    width: 121px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border-color: #F5F4FA;
+    
+}
+
+.second-button {
+    width: 93px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border-color: #F5F4FA;
+}
+
+.third-button {
+    width: 114px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border-color: #F5F4FA;
+}
+
+.fourth-button {
+    width: 91px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border-color: #F5F4FA;
+}
+
+.fifth-button {
+    width: 121px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border-color: #F5F4FA;
+}
