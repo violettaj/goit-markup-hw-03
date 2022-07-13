@@ -93,15 +93,12 @@ letter-spacing: 0.02em;
 
 footer {
     background-color: #2F303A;
-    width: 1600px;
     height: 252px;
 }
 
 .main-block {
 height: 600px;
-width: 1600px;
 background-color: #2F303A;
-text-align: center;
 }
 
 h1 {
@@ -257,3 +254,58 @@ border-radius: 4px;
     cursor: pointer;
     border-color: #F5F4FA;
 }
+
+.container {
+    max-width: 1200px;
+text-align: center;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.headline> .container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu-list > li {
+    display: inline-block;
+}
+
+.conteiner > .menu{
+    margin-left: 93px;
+}
+    
+
+.menu-list:nth-child(-n+1) > li {
+    margin-right: 46px;
+}
+
+
+.header-contact >li {
+    display: inline-block;   
+}
+
+.conteiner >.header-contact{
+    margin-left: 371px;
+}
+
+.header-contact:last-child >li {
+    margin-left: 50px;
+}
+.images-list > li{
+    display: inline-block;
+}
+
+footer > .container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+
