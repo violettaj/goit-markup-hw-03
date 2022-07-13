@@ -23,7 +23,7 @@ ul {
     color: #2196F3;
 }
 
-.menu {
+.link {
     font-weight: 500;
 font-size: 14px;
 text-decoration: none;
@@ -32,11 +32,11 @@ color:#212121;
 letter-spacing: 0.02em;
 }
 
-.menu:hover {
+.link:hover {
     color: #2196F3; 
 }
 
-.menu:focus {
+.link:focus {
     color: #2196F3; 
 }
 
@@ -98,7 +98,7 @@ footer {
 }
 
 .main-block {
-    height: 600px;
+height: 600px;
 width: 1600px;
 background-color: #2F303A;
 text-align: center;
