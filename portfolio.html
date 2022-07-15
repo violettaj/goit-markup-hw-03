@@ -12,23 +12,27 @@
 </head>
 <body>
     <header>
+      <section class="headline">
       <div class="container">
         <a href="/" class="main-logo"><span class="first-word">Web</span>Studio</a>
         <nav class="menu">
-          <ul >
+          <ul class="menu-list">
             <li><a href="index.html" class="link">Agencja</a></li>
             <li><a href="portfolio.html" class="link">Portfolio</a></li>
             <li><a href="/kontakt" class="link">Kontakt</a></li>
           </ul>
         </nav>
-        <a href="mailto:info@devstudio.com" class="header-mail">info@devstudio.com </a>
-        <a href="tel:+48111111111" class="header-tel">+48 111 111 111</a>
+        <ul class="header-contact">
+        <li><a href="mailto:info@devstudio.com" class="header-mail">info@devstudio.com </a></li>
+      <li><a href="tel:+48111111111" class="header-tel">+48 111 111 111</a></li>
+      </ul>
       </div>
+    </section>
     </header>
     <main> 
       <section class="section">
         <div class="container">
-        <ul>
+        <ul class="buttons">
             <li>
                 <button type="button" class="first-button">Wszystkie</button>
             </li>
@@ -45,16 +49,12 @@
                 <button type="button" class="fifth-button">Marketing</button>
             </li>
         </ul>
-        </div>
-      </section>
-      <section class="section">
-        <div class="container">
-        <ul> 
+        <ul class="project-list"> 
               <li>
                 <figure>
-                  <img src=images/portfolio-photo1.jpg alt="Zdjęcie laptopa z profilami trzech osób" 
+                  <img class="project-images" src=images/portfolio-photo1.jpg alt="Zdjęcie laptopa z profilami trzech osób" 
                   width="370" height="294">
-                  <figcaption>
+                  <figcaption classs="project-figcaption">
                     <p class="project-name">Technocrack</p>
                     <p class="project-filtres">Strona internetowa</p>
                   </figcaption>
@@ -62,9 +62,9 @@
               </li>
               <li>
                 <figure>
-                  <img src=images/portfolio-photo2.jpg alt="Grafika z dwoma mężczyznami grającymi w koszykówkę" 
+                  <img class="project-images" src=images/portfolio-photo2.jpg alt="Grafika z dwoma mężczyznami grającymi w koszykówkę" 
                   width="370" height="294">
-                  <figcaption>
+                  <figcaption classs="project-figcaption">
                     <p class="project-name">Grafika New Orlean vs Golden Star</p>
                     <p class="project-filtres">Dizajn</p>
                   </figcaption>
@@ -72,8 +72,8 @@
               </li>
               <li>
                 <figure>
-                  <img src=images/portfolio-photo3.jpg alt="Logo restauracji Seafood" width="370" height="294">
-                  <figcaption>
+                  <img class="project-images" src=images/portfolio-photo3.jpg alt="Logo restauracji Seafood" width="370" height="294">
+                  <figcaption classs="project-figcaption">
                     <p class="project-name">Restauracja Seafood</p>
                     <p class="project-filtres">Aplikacja</p>
                   </figcaption>
@@ -81,8 +81,8 @@
               </li>
               <li>
                 <figure>
-                  <img src=images/portfolio-photo4.jpg alt="Czarne słuchawki" width="370" height="294">
-                  <figcaption>
+                  <img class="project-images" src=images/portfolio-photo4.jpg alt="Czarne słuchawki" width="370" height="294">
+                  <figcaption classs="project-figcaption">
                     <p class="project-name">Projekt Prime</p>
                     <p class="project-filtres">Marketing</p>
                   </figcaption>
@@ -90,8 +90,8 @@
               </li>
               <li>
                 <figure>
-                  <img src=images/portfolio-photo5.jpg alt="Dwa pudełka" width="370" height="294">
-                  <figcaption>
+                  <img class="project-images" src=images/portfolio-photo5.jpg alt="Dwa pudełka" width="370" height="294">
+                  <figcaption classs="project-figcaption">
                     <p class="project-name">Projekt Boxes</p>
                     <p class="project-filtres">Aplikacja</p>
                   </figcaption>
@@ -99,9 +99,9 @@
               </li>
               <li>
                 <figure>
-                  <img src=images/portfolio-photo6.jpg alt="Ekran monitora z otwartą stroną internetową" 
+                  <img class="project-images" src=images/portfolio-photo6.jpg alt="Ekran monitora z otwartą stroną internetową" 
                   width="370" height="294">
-                  <figcaption>
+                  <figcaption classs="project-figcaption">
                     <p class="project-name">Inspiration has no Borders</p>
                     <p class="project-filtres">Strona internetowa</p>
                   </figcaption>
@@ -109,8 +109,8 @@
               </li>
               <li>
                 <figure>
-                  <img src=images/portfolio-photo7.jpg alt="Otwarte czasopismo" width="370" height="294">
-                  <figcaption>
+                  <img class="project-images" src=images/portfolio-photo7.jpg alt="Otwarte czasopismo" width="370" height="294">
+                  <figcaption classs="project-figcaption">
                     <p class="project-name">Magazyn Limited Edition</p>
                     <p class="project-filtres">Dizajn</p>
                   </figcaption>
@@ -118,8 +118,8 @@
               </li>
               <li>
                 <figure>
-                  <img src=images/portfolio-photo8.jpg alt="Etykieta z logiem marki" width="370" height="294">
-                  <figcaption>
+                  <img class="project-images" src=images/portfolio-photo8.jpg alt="Etykieta z logiem marki" width="370" height="294">
+                  <figcaption classs="project-figcaption">
                     <p class="project-name">Projekt LAB</p>
                     <p class="project-filtres">Marketing</p>
                   </figcaption>
@@ -127,8 +127,8 @@
               </li>
               <li>
                 <figure>
-                  <img src=images/portfolio-photo9.jpg alt="Mężczyzna piszący na laptopie" width="370" height="294">
-                  <figcaption>
+                  <img class="project-images" src=images/portfolio-photo9.jpg alt="Mężczyzna piszący na laptopie" width="370" height="294">
+                  <figcaption classs="project-figcaption">
                     <p class="project-name">Growing Business</p>
                     <p class="project-filtres">Aplikacja</p>
                   </figcaption>
@@ -139,6 +139,7 @@
       </section>
     </main>
     <footer>
+      <section class="section">
         <div class="container">
         <a href="/" class="footer-logo"><span class="first-word">Web</span>Studio</a>
       <address>
@@ -147,6 +148,7 @@
         <a href="tel:+48111111111" class="footer-tel">+48 111 111 111</a>
       </address>
     </div>
+  </section>
     </footer>
 </body>
 </html>
