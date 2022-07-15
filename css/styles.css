@@ -376,6 +376,7 @@ footer {
 .project-list {
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 30px;
 }
 
@@ -388,4 +389,16 @@ figure> .project-images {
     gap:8px;
     justify-content: center;
     margin-bottom: 50px;
+}
+
+.project-list > li {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #eeeeee;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #eeeeee;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #eeeeee;
 }
