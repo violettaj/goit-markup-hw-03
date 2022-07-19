@@ -121,7 +121,9 @@ margin-bottom: 30px;
     margin-top: 0;
     margin-bottom: 10px;
 }
-
+.features-description {
+    margin-bottom:-94px;
+}
 .second-headers {
     font-weight: 700;
 font-size: 36px;
